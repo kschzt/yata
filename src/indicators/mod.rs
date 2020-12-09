@@ -45,6 +45,10 @@ pub use elders_force_index::EldersForceIndex;
 mod envelopes;
 pub use envelopes::Envelopes;
 
+mod tv_fisher_transform;
+pub use tv_fisher_transform::TVFisherTransform;
+pub use tv_fisher_transform::TVFisherTransformInstance;
+
 mod fisher_transform;
 pub use fisher_transform::FisherTransform;
 
